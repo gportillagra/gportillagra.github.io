@@ -1,5 +1,5 @@
-<!--?php
-    include_once 'funciones.php';
+<php
+    include_once 'Functions.php';
     
     $request = file_get_contents("php://input");
     $request = json_decode($request);
